@@ -1,0 +1,174 @@
+{
+    "name": "CameraControlInput",
+    "maps": [
+        {
+            "name": "PCEditingCam",
+            "id": "339d89dc-af4e-454c-824a-9d42a7439508",
+            "actions": [
+                {
+                    "name": "MiddleBtnPress",
+                    "type": "Button",
+                    "id": "445279c8-1103-40b6-8eb5-6bf02ce1693a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MiddleBtnRelease",
+                    "type": "Button",
+                    "id": "f89a2f19-3c35-40b0-9d0d-39ad755687a6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightBtnPress",
+                    "type": "Button",
+                    "id": "6c8cc3da-4f1f-444f-99bd-cd8cb3787ba5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightBtnRelease",
+                    "type": "Button",
+                    "id": "1ea9098c-a9d4-4966-94a4-98ce4ceaf48c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.01)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SpaceKeyPress",
+                    "type": "Button",
+                    "id": "8fe61c4c-e66f-4f96-b243-cd73647ae4f8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Scroll",
+                    "type": "Value",
+                    "id": "179beba4-310c-4301-b2e4-8edc346d858c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MouseDelta",
+                    "type": "Value",
+                    "id": "f778c90b-4e68-408e-b8a1-3a45e8dfcd18",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MousePositioning",
+                    "type": "Value",
+                    "id": "4159caa8-ab50-41c0-8ebf-ecf457b0d78c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1f6c7206-271b-4378-8f8b-a642d0818436",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MiddleBtnPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b71182b-9ae1-421e-8ded-ac7b8b263735",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightBtnPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f933c79-c0ba-4abe-b380-b2bdd2767de1",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpaceKeyPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ab088f68-fb2d-461e-9b8a-c6851451a59d",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d65f3824-a063-4433-97e0-a7a52dca3670",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseDelta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ba246b6-36c3-462c-b50d-810017d7721d",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePositioning",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32bd95a6-f99a-4bde-b568-f5db8a30c83e",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "Press(pressPoint=0.01,behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MiddleBtnRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f91e6914-793c-4167-9bb4-b17ca3a8572e",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press(pressPoint=0.01,behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightBtnRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
